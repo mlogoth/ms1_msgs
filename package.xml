@@ -1,0 +1,21 @@
+<package>
+  <name>ms1_msgs</name>
+  <version>0.4.1</version>
+  <description>ms1_msgs package contains the ROS message of the ms1 packages</description>
+  <author email="logothm@gmail.com">Michael Logothetis</author>
+  <maintainer email="logothm@gmail.com">Michael Logothetis</maintainer>
+  <license>BSD</license>
+
+  <build_depend>geometry_msgs</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>shape_msgs</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+  <run_depend>geometry_msgs</run_depend>
+  <run_depend>message_runtime</run_depend>
+  <run_depend>shape_msgs</run_depend>
+  <run_depend>std_msgs</run_depend>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+</package>
