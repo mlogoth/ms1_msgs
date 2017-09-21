@@ -1,7 +1,6 @@
 # MS1 Messages Package
-=======================
+--------------------------------------------
 This package contains the messages that will be used in MS1 Integration Meeting
-
 The list of msgs contained is:
 
 * StringStamped.msg
@@ -9,15 +8,14 @@ The list of msgs contained is:
 * Humans.msg
 * Object.msg
 * Objects.msg
+-------------------------------------------
+### Generate A new Message in the Package:
 
-========================================
-## Generate A new Message in the Package:
-
-1. Create a .msg file that contains your message in the *msg* folder. (i.e. example.msg)
+1. Create a ```.msg``` file that contains your message in the *msg* folder. (i.e. example.msg)
 
 2. Open *CMakeLists.txt* and add your .msg file in the following block of code:
 
-```XML
+```python
 add_message_files(
   DIRECTORY msg
   FILES
